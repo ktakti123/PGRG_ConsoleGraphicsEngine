@@ -78,11 +78,11 @@ void PGRG_WindowStart(int Screen_Width, int Screen_Height, int Font_Size)
 	SetConsoleActiveScreenBuffer(hConsole);
 	SetCurrentConsoleFontEx(hConsole, FALSE, &cfi);
 }
-void PGRG_FillColor(CHAR_INFO buffer[]){
+void PGRG_FillColor(CHAR_INFO buffer[],WORD color){
 	for (int i = 0; i < nScreenWidth * nScreenHeight; ++i)
 	{
 		buffer[i].Char.AsciiChar = ' ';
-		buffer[i].Attributes = BACKGROUND_RED | BACKGROUND_INTENSITY;
+		buffer[i].Attributes = color;
 	}
 }
 void PGRG_Display(CHAR_INFO buffer[]){
