@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <windows.h>
 #include "PGRG_ConsoleGraphics.h"
-
-
 int main()
 { int x = 1;
 	int y = 1;
-int ax = 1;
-int ay = 1;
-	PGRG_WindowStart(150, 200, 2);
-	PGRG buffer[150 * 200];
+  int ax = 1; 
+  int ay = 1;
+	PGRG_WindowStart(150, 200, 2); 
+	PGRG buffer[150 * 200]; 
 	
-	while (1)
+	while (1) 
 	{
 		PGRG_FillColor(buffer,PGRG_RED);
 		PGRG_Line(x, 5, 60, 20, buffer,PGRG_BLACK);
@@ -21,18 +19,15 @@ int ay = 1;
 		PGRG_Pixel(10,50,buffer,PGRG_DBLUE);
 		PGRG_Rectangle(20,30 ,10,10,buffer,PGRG_GREEN);
 		PGRG_Display(buffer);
-	
-		x=x+ax;
-		y=y+ay;i
-		if(x > nScreenWdth-5  || x < 0)
+		x=x+ax; 
+		y=y+ay;
+		if(x > nScreenWidth-5  || x < 0)
 		ax = -ax;
 		if(y> nScreenHeight-5  || y< 0)
 		ay = -ay;
 	}
 	return 0;
 }
-
-
 
 
 
