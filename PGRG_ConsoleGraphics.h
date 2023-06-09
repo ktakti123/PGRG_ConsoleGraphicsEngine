@@ -1,5 +1,5 @@
-#ifndef Pratima_ConsoleGraphics_H
-#define Pratima_ConsoleGraphics_H
+#ifndef PGRG_ConsoleGraphics_H
+#define PGRG_ConsoleGraphics_H
 #include <windows.h>
 #include <stdlib.h>
 
