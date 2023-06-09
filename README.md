@@ -24,4 +24,5 @@ Things to do
 #Implement GetAsyncKeyState for Keyboard and mouse inputs.  
 #Implement Triangle Filling Algorithm  
 #Implement Square Filling Algorithm  
+You can Help me improve the game engine as well. Just look at the header file and see if you can improve things in a simple way . let me know the results. 
 
