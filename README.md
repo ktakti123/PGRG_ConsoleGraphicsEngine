@@ -21,7 +21,7 @@ PGRG_WHITE
 
 All The Function Reference is in Example file with explaination.
 Things to do 
-#Implement GetAsyncKeyState for Keyboard and mouse inputs. 
-#Implement Triangle Filling Algorithm
-#Implement Square Filling Algorithm
+#Implement GetAsyncKeyState for Keyboard and mouse inputs.  
+#Implement Triangle Filling Algorithm  
+#Implement Square Filling Algorithm  
 
