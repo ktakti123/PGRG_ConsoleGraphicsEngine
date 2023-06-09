@@ -18,3 +18,7 @@ PGRG_RED  ,
 PGRG_MAGENTA  ,	
 PGRG_YELLOW  ,		
 PGRG_WHITE  		
+
+available Functions 
+PGRG_WindowStart(int Screen_Width, int Screen_Height, int Font_Size) 
+  Starts the Window
