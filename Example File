@@ -11,7 +11,7 @@ int main()
 	
 	while (1) // Ahh dont be furious now. It's my way of being lazy. Set up a boolean if you like . In C remember to add <stdbool.h> for booleans. 
 	{
-		PGRG_FillColor(buffer); //This clears whole screen with the colors you choose
+		PGRG_FillColor(buffer,PGRG_RED); //This clears whole screen with the colors you choose
 		PGRG_Line(x, 5, 60, 20, buffer,PGRG_BLACK);//Draws line with two points (x1,y1),(x2,y2). arguments sorted as (x1,y1,x2,y2,buffer,color)
 		PGRG_Circle(x,y,5,buffer,PGRG_WHITE);//Draws circle arguments is (circle centeroint x, centerpoint y , radius,color)
 		PGRG_FillCircle(100,30,5,buffer,PGRG_BLUE); //Same as above . In this case circle is filled with color.
